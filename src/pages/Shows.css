@@ -1,0 +1,74 @@
+.shows-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.movie-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.movie-header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+}
+
+.movie-header p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.shows-container h2 {
+  color: #333;
+  margin: 2rem 0 1.5rem 0;
+}
+
+.shows-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.show-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.show-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.show-content {
+  padding: 1.5rem;
+}
+
+.show-content h3 {
+  color: #333;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+}
+
+.theatre {
+  color: #667eea;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.seats {
+  color: #999;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.show-card .btn-primary {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0;
+}
